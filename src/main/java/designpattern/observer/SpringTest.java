@@ -23,7 +23,7 @@ public class SpringTest {
 
         System.out.println("------------------------");
 
-        SpringTv tv = new SpringTv("tv");
+        SpringTv tv = new SpringTv("tv","哼唧");
         tv.update();
         publisher.publishTvEvent(tv);
     }

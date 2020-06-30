@@ -14,6 +14,7 @@ public class TvUserB implements ApplicationListener<SpringTv> {
 
     @Override
     public void onApplicationEvent(SpringTv event) {
+        System.out.println(event.getTv());
         System.out.println("TvUserB看到电视剧情节改变笑了");
     }
 }
